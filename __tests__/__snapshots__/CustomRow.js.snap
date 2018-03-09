@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "borderRadius": 5,
+      "elevation": 2,
+      "flex": 1,
+      "flexDirection": "row",
+      "marginBottom": 8,
+      "marginLeft": 16,
+      "marginRight": 16,
+      "marginTop": 8,
+      "padding": 10,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://i.imgur.com/K3KJ3w4h.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 50,
+        "height": 50,
+        "width": 50,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "marginLeft": 12,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#000",
+          "fontSize": 16,
+        }
+      }
+    >
+      Teste title
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontSize": 11,
+          "fontStyle": "italic",
+        }
+      }
+    >
+      Teste description
+    </Text>
+  </View>
+</View>
+`;
