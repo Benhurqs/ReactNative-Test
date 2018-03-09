@@ -1,17 +1,16 @@
 // import 'react-native';
 import React from 'react';
-import CustomRow from '../app/components/CustomRow';
+import CustomListview from '../../app/components/CustomListview';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
+import Discography from '../../app/mock/discography.json';
 
 test('renders correctly', () => {
   const tree = renderer.create(
-    <CustomRow
-        title='Teste title'
-        description='Teste description'
-        image_url="https://i.imgur.com/K3KJ3w4h.jpg"
-    />
+    <CustomListview 
+            itemList={Discography}
+        />
   );
   expect(tree).toMatchSnapshot();
 });
