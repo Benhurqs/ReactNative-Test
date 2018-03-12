@@ -13,10 +13,8 @@ export function getDiscography(){
 }
 
 export function getArtists(){
-    return (dispatch) => {
-        setTimeout(() => {
-            var mockData = Artists;
-            dispatch({type: DATA_AVAILABLE, data: mockData});
-        }, 1000);
+    return {
+        type: DATA_AVAILABLE,
+        data: Artists
     }
 }
